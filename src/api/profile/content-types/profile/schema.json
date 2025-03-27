@@ -18,7 +18,7 @@
       "type": "string"
     },
     "Email": {
-      "type": "string"
+      "type": "email"
     }
   }
 }

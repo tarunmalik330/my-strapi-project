@@ -384,7 +384,7 @@ export interface ApiProfileProfile extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    Email: Schema.Attribute.String;
+    Email: Schema.Attribute.Email;
     FirstName: Schema.Attribute.String;
     LastName: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
